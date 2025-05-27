@@ -134,14 +134,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        printscreen {
-            bindings = <&kp LC(PRINTSCREEN)>;
-            key-positions = <37 38>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
